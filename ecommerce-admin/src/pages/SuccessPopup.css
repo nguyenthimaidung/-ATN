@@ -1,0 +1,11 @@
+.popup-success-icon {
+  font-size: 140px;
+  color: #007e33;
+}
+
+@media (min-width: 576px) {
+  .popup.modal-dialog {
+    max-width: 420px;
+    margin: 1.75rem auto;
+  }
+}

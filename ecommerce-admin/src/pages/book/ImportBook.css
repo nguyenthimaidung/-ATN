@@ -1,0 +1,14 @@
+.select-book {
+  flex-grow: 1;
+  margin-right: 30px;
+}
+.quantity-book {
+  margin-right: 30px;
+}
+.button-import {
+  margin: 24px 0;
+  height: 42px;
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 42px;
+}

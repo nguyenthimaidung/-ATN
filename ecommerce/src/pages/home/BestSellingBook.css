@@ -1,0 +1,65 @@
+.best-selling-book-container {
+  padding-top: 35px;
+  padding-bottom: 30px;
+  margin-bottom: 66px;
+}
+.widget-banner-product .title-banner {
+  color: #f86d72;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: 0;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.widget-banner-product .product-title {
+  font-size: 48px;
+  margin: 0;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+.widget-banner-product .list-author {
+  font-size: 15px;
+  font-family: Merriweather, serif;
+  color: #909090;
+  margin-bottom: 20px;
+}
+
+.widget-banner-product .list-author a {
+  color: #909090;
+}
+.widget-banner-product .list-author a:focus,
+.widget-banner-product .list-author a:hover {
+  color: #f86d72;
+}
+
+.widget-banner-product .product-price {
+  font-size: 28px;
+  font-family: Merriweather, serif;
+  color: #f86d72;
+  margin-bottom: 17px;
+}
+.widget-banner-product .product-price .currency-price .discount-price {
+  color: #666;
+  text-decoration: line-through;
+  margin-right: 16px;
+}
+.widget-banner-product .product-button {
+  margin-top: 35px;
+}
+.widget-banner-product .product-button .product_add_to_cart {
+  height: 45px;
+  margin: 0;
+  padding: 0 40px;
+  font-weight: 600;
+  font-size: 15px;
+  box-shadow: 0 13px 29.4px 0.6px rgb(43 43 43 / 25%);
+}
+@media (max-width: 1199px) {
+  .widget-banner-product .products-content {
+    margin-bottom: 50px;
+  }
+}

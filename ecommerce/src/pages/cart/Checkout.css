@@ -1,0 +1,75 @@
+.checkout h3.title {
+  margin-top: 25px;
+  font-size: 25px;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+  color: #2b2b2b;
+}
+.checkout .checkout-review-order {
+  padding: 30px;
+  background-color: #f5f5f5;
+}
+.checkout-review-order .product-total {
+  color: #2b2b2b;
+  font-weight: 700;
+}
+.checkout-review-order table thead th {
+  font-size: 15px;
+  color: #2b2b2b;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.checkout-review-order table {
+  width: 100%;
+  background-color: white;
+}
+.checkout-review-order table tfoot tr th {
+  border-right: 1px solid #f5f5f5;
+  font-family: Merriweather, serif;
+}
+.checkout-review-order .price {
+  font-size: 24px;
+  font-weight: 700;
+  color: #f86d72;
+}
+.checkout-form {
+  position: relative;
+  overflow: hidden;
+}
+.checkout-order-info {
+  visibility: visible;
+  transition: all 0.5s ease;
+}
+.checkout-verify-email {
+  transition: left 0.5s ease;
+  position: absolute;
+  top: 0;
+  left: 105%;
+  right: 0;
+  max-width: 100%;
+  width: 100%;
+}
+.checkout-form.verify-email .checkout-order-info {
+  transform: translateX(-105%);
+}
+.checkout-form.verify-email .checkout-verify-email {
+  left: 0;
+}
+.checkout-result a:not(:hover):not(:focus),
+.checkout-verify-email a:not(:hover):not(:focus) {
+  color: #f86d72;
+}
+.checkout-result {
+  animation: zoomin 0.2s;
+}
+.checkout-result .icon-fail {
+  font-size: 9em;
+}
+@keyframes zoomin {
+  from {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}

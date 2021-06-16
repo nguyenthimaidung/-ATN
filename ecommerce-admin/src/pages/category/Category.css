@@ -1,0 +1,55 @@
+.category-tree-view .treeview-animated-element {
+  display: flex !important;
+  align-items: baseline;
+}
+.category-tree-view .treeview-animated-element > span {
+  flex-grow: 1;
+  display: flex;
+  align-items: baseline;
+}
+.category-tree-view .category-title {
+  flex-grow: 1;
+  display: flex;
+  align-items: baseline;
+  margin-left: -45.5px;
+  padding-left: 45.5px;
+  z-index: 1;
+  user-select: none;
+}
+.category-tree-view .category-title .category-action {
+  margin-left: auto;
+  visibility: hidden;
+}
+.category-tree-view .button-add,
+.category-tree-view .button-edit,
+.category-tree-view .button-del {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 4px;
+  width: 20px;
+}
+.category-tree-view h6 .category-title .category-action .button-add {
+  margin-right: 16px;
+}
+.category-tree-view h6 .category-title .category-action,
+.category-tree-view .treeview-animated-element:hover .category-action,
+.category-tree-view .category-title.active .category-action {
+  visibility: visible;
+}
+
+.category-tree-view .treeview-animated-items > .treeview-animated-element {
+  background-color: unset !important;
+  color: unset !important;
+}
+.category-tree-view .treeview-animated-items > .treeview-animated-element:hover {
+  background-color: #8cb9ff !important;
+}
+.category-tree-view .treeview-animated-list .treeview-animated-items .closed .fa-angle-right.down {
+  color: unset !important;
+}
+.category-tree-view .treeview-animated-items.active.treeview-animated-element,
+.category-tree-view .treeview-animated-items.active > .treeview-animated-element {
+  background-color: #32a0ff !important;
+  color: #f8f9fa !important;
+}

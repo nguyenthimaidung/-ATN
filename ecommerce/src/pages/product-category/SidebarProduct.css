@@ -1,0 +1,141 @@
+.sidebar-product .widget {
+  margin-bottom: 60px;
+}
+.sidebar-product .widget-search .input-group {
+  margin: 0;
+}
+.sidebar-product .widget-search .input-group input {
+  height: 45px;
+  padding-top: 0;
+  padding-bottom: 0;
+  box-sizing: border-box;
+  border: 1px solid #ced4da !important;
+  border-right: none !important;
+  box-shadow: none !important;
+  transform: none !important;
+}
+.sidebar-product .widget-search .input-group input:focus {
+  border-bottom: 1px solid #f86d72 !important;
+}
+.sidebar-product .widget-search .btn-search {
+  height: 45px;
+  padding: 0 15px;
+  font-size: 18px;
+}
+.sidebar-product .widget-search .btn-search span {
+  display: inline-block;
+  font-family: ElegantIcons;
+  transform: rotateY(180deg);
+}
+.sidebar-product .widget-title {
+  color: #2b2b2b;
+  padding: 0;
+  background: 0 0;
+  font-weight: 700;
+  font-size: 22px;
+  margin: -3px 0 35px;
+  position: relative;
+  text-transform: capitalize;
+  padding-bottom: 6px;
+  border-bottom: 1px solid rgba(248, 109, 114, 0.25);
+}
+.sidebar-product .widget-title::before {
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  content: '';
+}
+.sidebar-product .widget-title::before {
+  width: 50px;
+  height: 2px;
+  background: #f86d72;
+}
+.sidebar-product .md-accordion.categories .active {
+  color: #dd2c00;
+  font-weight: 700;
+}
+.sidebar-product .md-accordion.categories .card {
+  border: none !important;
+}
+.sidebar-product .md-accordion.categories .card .card-header {
+  padding: 0;
+  padding-bottom: 8px;
+}
+.sidebar-product .md-accordion.categories .card:not(:first-of-type) .card-header {
+  padding-top: 8px;
+}
+.sidebar-product .md-accordion.categories .card .card-header .fa.fa-angle-down {
+  font-family: ElegantIcons;
+}
+.sidebar-product .md-accordion.categories .card .card-header .fa.fa-angle-down::before {
+  content: '\0033';
+}
+.sidebar-product .md-accordion.categories .card .card-header .rotate-icon {
+  transform: rotateX(180deg);
+}
+.sidebar-product .md-accordion.categories .card .card-body {
+  padding: 0;
+  padding-left: 32px;
+}
+.sidebar-product .m-btn {
+  margin: 1.5rem 0 !important;
+  margin-bottom: 0 !important;
+}
+.sidebar-product .product-author-filter .author-checkbox {
+  padding: 9.5px 0;
+}
+.sidebar-product .product-tags .tag {
+  color: #666;
+  border: 2px solid hsla(0, 0%, 56%, 0.25);
+  overflow: hidden;
+  background: 0 0;
+  padding: 0 15px;
+  line-height: 30px;
+  font-size: 15px;
+  text-transform: lowercase;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  position: relative;
+  font-weight: 300;
+  margin: 0 10px 10px 0;
+  cursor: pointer;
+}
+.sidebar-product .product-tags .tag:hover {
+  border-color: #f86d72;
+  color: #fff;
+}
+.sidebar-product .product-tags .tag.active {
+  border-color: #dd2c00;
+  color: #fff;
+}
+.sidebar-product .product-tags .tag::before {
+  position: absolute;
+  content: '';
+  background: #f86d72;
+  width: 100%;
+  height: 0;
+  top: 0;
+  left: 0;
+  transition: height 0.3s ease;
+  z-index: -1;
+}
+.sidebar-product .product-tags .tag:hover::before,
+.sidebar-product .product-tags .tag.active::before {
+  height: 100%;
+}
+.sidebar-product .product-tags .tag.active::before {
+  background: #dd2c00;
+}
+.masonry-with-columns {
+  display: flex;
+  flex-wrap: wrap;
+}
+.masonry-with-columns div {
+  flex: 1 0 auto;
+}
+@media (max-width: 991px) {
+  .sidebar-product {
+    padding-top: 40px;
+  }
+}

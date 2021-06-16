@@ -1,0 +1,84 @@
+.fragment-header {
+  font-weight: 600;
+  display: flex;
+  margin-bottom: 16px;
+}
+.fragment-header .button-back {
+  margin: 0;
+  margin-left: -4px;
+  margin-right: 16px;
+  padding: 0 4px;
+}
+
+.images-input-container {
+  display: flex;
+  margin: 0px -4px 16px -4px;
+}
+.images-input-container [class^='add-image'] {
+  position: relative;
+}
+.images-input-container .add-image,
+.images-input-container .add-image-cover {
+  width: 20%;
+  min-height: 50px;
+  margin: 4px;
+}
+.images-input-container .add-image-cover {
+  width: 100%;
+}
+.images-input-container .input-type-file,
+.images-input-container input[type='file'] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  z-index: 1;
+}
+.images-input-container .add-image i,
+.images-input-container .add-image-cover i {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  font-size: 32px;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.images-input-container .add-image i::before,
+.images-input-container .add-image-cover i::before {
+  position: absolute;
+  top: calc(50% - 16px);
+  left: calc(50% - 16px);
+}
+.images-input-container .add-image.empty i,
+.images-input-container .add-image:hover i,
+.images-input-container .add-image-cover:hover i,
+.images-input-container .add-image-cover.empty i {
+  opacity: 1;
+  background: hsla(0, 0%, 100%, 0.4);
+}
+
+.images-input-container .add-image.empty i,
+.images-input-container .add-image-cover.empty i {
+  border: 1px solid #f5f5f5;
+}
+
+.action-container {
+  margin-top: 36px;
+  margin-bottom: 14px;
+}
+.action-container button {
+  margin: 0;
+}
+.action-container button:not(:first-child) {
+  margin-left: 12px;
+}

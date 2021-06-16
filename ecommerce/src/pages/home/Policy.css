@@ -1,0 +1,14 @@
+.policy-wp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 45px 0;
+}
+.policy-icon {
+  margin-right: 20px;
+  min-width: 47px;
+}
+.policy-icon image {
+  margin: auto;
+}

@@ -1,0 +1,29 @@
+.form-sign-in a:not(:hover):not(:focus) {
+  color: #f86d72;
+}
+.form-sign-in .view {
+  background-image: url('https://www.marketplace.org/wp-content/uploads/2021/01/Books_New-e1611252343470.jpg?fit=2879%2C1619');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+.form-sign-in .gradient {
+  background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgb(15, 76, 144, 0.25) 100%);
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgb(15, 76, 144, 0.25) 100%);
+}
+.form-sign-in .card {
+  background-color: rgb(80, 80, 80, 0.25);
+}
+.form-sign-in .md-form {
+  margin-top: 36px;
+  margin-bottom: 36px;
+}
+.form-sign-in .md-form input,
+.form-sign-in .md-form input + label {
+  color: #fff !important;
+}
+.form-sign-in .icon-size {
+  top: 15px;
+  font-size: 15px;
+}

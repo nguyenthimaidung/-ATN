@@ -1,0 +1,34 @@
+.form-sign-up a:not(:hover):not(:focus) {
+  color: #f86d72;
+}
+.form-sign-up .view {
+  background-image: url('https://cdn.hipwallpaper.com/i/79/4/fGkOe5.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+.form-sign-up .gradient {
+  background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgb(144, 86, 15, 0.25) 100%);
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgb(144, 85, 15, 0.25) 100%);
+}
+.form-sign-up .card {
+  background-color: rgb(80, 80, 80, 0.25);
+}
+.form-sign-up .md-form {
+  margin-top: 36px;
+  margin-bottom: 36px;
+}
+.form-sign-up .md-form input,
+.form-sign-up .md-form input + label {
+  color: #fff !important;
+}
+.form-sign-up .icon-size {
+  top: 15px;
+  font-size: 15px;
+}
+.form-sign-up .button-default {
+  padding: 0 40px;
+  font-weight: 400;
+  font-size: 15px;
+}

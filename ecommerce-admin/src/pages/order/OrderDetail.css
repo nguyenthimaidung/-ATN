@@ -1,0 +1,101 @@
+.order-container .order-detail-header {
+  font-size: 15px;
+  font-weight: 700;
+  font-family: Merriweather, serif;
+  color: #212529;
+  margin-bottom: 24px;
+}
+/* Order detail */
+.order-container .order-detail table.content .label {
+  font-weight: 500;
+  color: #212529;
+  font-family: Merriweather, serif;
+  line-height: 1.6;
+  min-width: 110px;
+}
+.order-container .order-detail table.content .value {
+  color: #212529;
+}
+.order-container .order-detail .order-action {
+  display: flex;
+  align-items: center;
+  padding: 16px 0 16px 0;
+  border-bottom: 1px solid #f5f5f5;
+}
+.order-container .order-detail .order-action .order-action-label {
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+}
+.order-container .order-detail .order-action .order-action-label .label-icon {
+  margin-right: 16px;
+  font-size: large;
+}
+.order-container .order-detail .order-action .order-action-label.active .label-icon {
+  color: #2196f3;
+}
+.order-container .order-detail .order-action .btn {
+  margin: 0;
+  padding: 0;
+  height: 36px;
+  width: 110px;
+  text-transform: none;
+}
+.order-container .order-detail .order-action .btn + .btn {
+  margin-left: 8px;
+}
+
+/* Order info */
+.order-container .customer-info-container {
+  margin-bottom: 32px;
+}
+.order-container .customer-info h3.label {
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+/* .order-container .customer-info .content {
+  max-width: 80%;
+} */
+.order-container .customer-info .content div {
+  margin-top: 4px;
+}
+.order-container .customer-info .content div i {
+  margin-right: 8px;
+}
+.order-container .customer-info .content-action {
+  display: flex;
+}
+.order-container .customer-info .content-action button {
+  margin-left: auto;
+  margin-right: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 36px;
+  text-transform: none;
+}
+
+.order-detail-table.table {
+  border: 1px solid #f5f5f5;
+}
+.order-detail-table.table td {
+  border: 0;
+  border-bottom: 1px solid #f5f5f5;
+}
+.order-detail-table.table thead th {
+  border: 0;
+  border-bottom: 1px solid #f5f5f5;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Merriweather, serif;
+  background-color: transparent;
+}
+.order-detail-table td {
+  vertical-align: middle;
+}
+.order-detail-table img {
+  max-width: 80px;
+  min-width: 80px;
+}

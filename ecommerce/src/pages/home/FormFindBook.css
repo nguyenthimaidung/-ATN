@@ -1,0 +1,19 @@
+.form-find-book {
+  margin: 0;
+  padding: 50px 0;
+}
+.form-find-book .input-select {
+  margin: 0;
+  height: 50px;
+}
+.form-find-book .input-select input.select-dropdown {
+  height: 50px;
+}
+.form-find-book .input-select .caret {
+  top: 1.2rem;
+}
+.form-find-book .btn-find-book {
+  margin: 0;
+  width: 100%;
+  font-size: 15px;
+}

@@ -1,0 +1,20 @@
+table .link {
+  transition: all 0.3s;
+  cursor: pointer;
+}
+table .link:hover,
+table .link:focus {
+  color: #f86d72;
+}
+
+table .price {
+  display: block;
+}
+table .price .currency-price {
+  display: block;
+}
+table .price .currency-price .discount-price {
+  display: block;
+  color: #666;
+  text-decoration: line-through;
+}

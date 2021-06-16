@@ -1,0 +1,8 @@
+.product-category-content {
+  margin-bottom: 100px;
+}
+@media (max-width: 991px) {
+  .product-category-content {
+    flex-direction: column-reverse !important;
+  }
+}

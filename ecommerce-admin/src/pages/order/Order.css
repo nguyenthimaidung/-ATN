@@ -1,0 +1,26 @@
+table .link-id {
+  text-decoration: underline;
+  cursor: pointer;
+}
+table .link-id:focus,
+table .link-id:hover {
+  color: #f86d72;
+}
+table .order-state,
+table .order-pay-state {
+  display: inline-block;
+}
+table .order-state {
+  color: rgba(76, 175, 80, 0.7);
+}
+table .order-pay-state {
+  margin-left: 12px;
+}
+table .order-pay-state .pay-online.paid,
+table .order-pay-state .pay-cash.paid {
+  color: #0099cc;
+}
+table .order-pay-state .pay-online.refund,
+table .order-pay-state .pay-cash.refund {
+  color: rgba(233, 30, 99, 0.7);
+}

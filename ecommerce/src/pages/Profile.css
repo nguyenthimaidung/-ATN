@@ -1,0 +1,33 @@
+.modal-dialog.cascading-modal.modal-avatar .modal-header .modal-title {
+  position: relative;
+}
+.modal-dialog.cascading-modal.modal-avatar .modal-header .modal-title img {
+  background-color: white;
+  height: 130px;
+  display: block;
+}
+.modal-dialog.cascading-modal.modal-avatar .modal-header .modal-title input[type='file'] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  filter: alpha(opacity=0);
+  opacity: 0;
+}
+.modal-dialog.cascading-modal.modal-avatar .modal-header .modal-title i {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 14px;
+  color: #666;
+  visibility: hidden;
+  pointer-events: none;
+}
+.modal-dialog.cascading-modal.modal-avatar .modal-header .modal-title:hover i {
+  visibility: visible;
+}
